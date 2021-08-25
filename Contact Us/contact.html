@@ -3,40 +3,66 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Contact Form</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
   <body>
-
-    <!--alert messages start
-    <div class="alert-success">
-      <span>Message Sent! Thank you for contacting us.</span>
-    </div>
-    <div class="alert-error">
-      <span>Something went wrong! Please try again.</span>
-    </div>
-    alert messages end-->
-
-    <!--contact section start-->
+      <!-- navigation bar -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">
+          LOGO
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        
+        <!-- unordered (bulleted) list of menu items -->
+        <ul class="navbar__menu">
+          <li class="navbar__button">
+            <a href="#home" class="button" id="home-page">Home</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#history" class="button" id="history-page">History</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#about" class="button" id="about-page">About Us</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#services" class="button" id="services-page">Services</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#volunteer" class="button" id="volunteer-page">Volunteer</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#donate" class="button" id="donate-page">Donate</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/contact.html" class="button" id="contact-page">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
     <div class="contact-section">
       <div class="contact-info">
-        <div><i class="fas fa-map-marker-alt"></i>Address, City, Country</div>
-        <div><i class="fas fa-envelope"></i>contact@email.com</div>
-        <div><i class="fas fa-phone"></i>+00 0000 000 000</div>
-        <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
+          <h1> Contact Us</h1>
+        <div><i class="fas fa-map-marker-alt"></i>489 St Pauls Pl, Bronx, NY 10456</div>
+        <div><i class="fas fa-envelope"></i>stpaulchurchbronx@gmail.com</div>
+        <div><i class="fas fa-phone"></i>+(718) 681-4900</div>
+        <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>  
+        <div><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/profile.php?id=100070833050482">@StPaul Church</a></div>
+        <div><i class="fab fa-twitter"></i><a href="https://twitter.com/paul_bronx">@paul_bronx</a></div>
+        <div><i class="fab fa-instagram"></i><a href="https://www.instagram.com/stpaulchurchbronx/">@stpaulchurchbronx</a></div>
       </div>
-      <div class="contact-form">
-        <h2>Contact Us</h2>
-        <form class="contact" action="" method="post">
-          <input type="text" name="name" class="text-box" placeholder="Your Name" required>
-          <input type="email" name="email" class="text-box" placeholder="Your Email" required>
-          <textarea name="message" rows="5" placeholder="Your Message" required><textarea>
-          <input type="submit" name="submit" class="send-btn" value="Send">
-        </form>
-      </div>
+
+
     </div>
-    <!--contact section end-->
+
 
   </body>
 </html>
