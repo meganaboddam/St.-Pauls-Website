@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.FoodPantryImg {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  background-image: url("../Images/FoodPantryImg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.FoodPantryImg .socials {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.FoodPantryHeader {
+  margin: 0;
+  font-size: 50px;
+  padding: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: rgba(204, 204, 204, 0.5);
+  position: absolute;
+  margin-left: 20%;
+  width: 50%;
+  margin-top: 250px;
+}
+
+.soclai_icon {
+  float: right;
+}
+
+.sectionone {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.sectionone p {
+  width: 80%;
+  border: 4px solid;
+  padding: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+}
+
+.socials {
+  height: 25px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgb(0, 0, 0);
+  margin: 0 0;
+  padding: 0;
+}
+
+.img_hr {
+  border-top: 3px solid rgb(0, 0, 0);
+}
