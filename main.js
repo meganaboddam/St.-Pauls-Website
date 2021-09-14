@@ -1,6 +1,6 @@
 'use strict'
-
-/* mobile nav bar creation */
+/*
+// mobile nav bar creation
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 
@@ -23,22 +23,38 @@ const hideMobileMenu = () => {
   
   menuLinks.addEventListener('click', hideMobileMenu);
   navLogo.addEventListener('click', hideMobileMenu);
-
-
-
-/*
-const switcher = document.querySelector('.btn');
-switcher.addEventListener('click', function() {
-    document.body.classList.toggle('alternate-font')
-    
-    var className = document.body.className;
-    if(className == "original-font") {
-        this.textContent = "larger, Times font";
-    }
-    else {
-        this.textContent = "smaller font";
-    }
-
-}
-);
 */
+/* HOMEPAGE SLIDESHOW SLIDESHOW SLIDESHOW */
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
+/* END END END SLIDESHOW SLIDESHOW SLIDESHOW END END END */
