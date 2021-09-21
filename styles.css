@@ -228,12 +228,12 @@
   background: -webkit-linear-gradient(
     to right,
     lightskyblue,
-    blue
+    lightskyblue
   ); 
   background: linear-gradient(
     to right,
     lightskyblue,
-    blue
+    lightskyblue
   ); 
   background-size: 100%;
   -webkit-background-clip: text;
@@ -248,12 +248,12 @@
   background: -webkit-linear-gradient(
     to right,
     lightskyblue,
-    blue
+    lightskyblue
   ); 
   background: linear-gradient(
     to right,
     lightskyblue,
-    blue
+    lightskyblue
   ); 
   background-size: 100%;
   -webkit-background-clip: text;
@@ -313,18 +313,18 @@
   flex-direction: column;
   justify-content: center;
   color: whitesmoke;
-  background-image: linear-gradient(to right, whitesmoke 0%, lightskyblue 100%);
+  background-image: linear-gradient(to right, lightskyblue 0%, lightskyblue 100%);
   
   transition: 0.3s ease-in;
 }
 
 .services__card h2 {
   text-align: center;
-  background-color: blue;
+  /*background-color: blue;*/
 }
 
 .services__card p {
-  background-color: blue;
+  /*background-color: blue;*/
   text-align: center;
   margin-top: 24px;
   font-size: 20px;
@@ -413,12 +413,12 @@
   background: -webkit-linear-gradient(
     to right,
     lightskyblue,
-    blue
+    lightskyblue
   ); 
   background: linear-gradient(
     to right,
     lightskyblue,
-    blue
+    lightskyblue
   ); 
   background-size: 100%;
   -webkit-background-clip: text;
@@ -470,20 +470,20 @@
   flex-direction: column;
   justify-content: center;
   color: whitesmoke;
-  background-image: linear-gradient(to right, whitesmoke 0%, lightskyblue 100%);
+  background-image: linear-gradient(to right, lightskyblue 0%, lightskyblue 100%);
   
   transition: 0.3s ease-in;
 }
 
 .about__card h2 {
   text-align: center;
-  background-color: blue;
+  
 }
 
 .about__card p {
-  background-color: blue;
+  
   text-align: center;
-  margin-top: 24px;
+  
   font-size: 20px;
 }
 
@@ -594,7 +594,7 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  background-image: linear-gradient(to right, lightskyblue 0%, lightskyblue 100%);
 }
 
 .fa-layer-group,
@@ -721,7 +721,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 500px;
+  width: 320px;
 }
 
 .website__rights {
